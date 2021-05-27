@@ -20,4 +20,6 @@ use Illuminate\Http\Request;
 
 // Rotas da aplicação:
         Route::get('getinstituicoes', 'ApisController@getInstituicoes');
+        Route::get('getconvenios', 'ApisController@getConvenios');
+        Route::post('simulacao', 'ApisController@Simulacao');
         
